@@ -1,0 +1,39 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo {
+    max-width: 148px;
+    min-width: 148px;
+    max-height: 27px;
+    min-height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+#pages ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+#pages li {
+    list-style-type: none;
+}
+
+#pages a {
+    text-decoration: none;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 12px;
+}
