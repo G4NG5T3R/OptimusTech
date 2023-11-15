@@ -1,4 +1,5 @@
-# OptimusTech
-#7DaysOfCode
+# Projeto OptimusTech
+# 7DaysOfCode
 
-teste
++ Dia 1 - Desenvolvido NavBar;  
++ Dia 2 - Desenvolvido Header;  

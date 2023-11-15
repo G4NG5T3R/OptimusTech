@@ -1,5 +1,6 @@
 :root {
     --text-color: #667085;
+    --main-color: #8E2424;
   }
   
   * {
@@ -39,6 +40,38 @@
   }
   
   button#signUp {
-    background-color: #8E2424;
+    background-color: var(--main-color);
     color: #FFF;
+  }
+
+  header {
+    height: 407px;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  header div {
+    display: flex;
+    flex-direction: column;
+    gap:  24px;
+    padding: 0px 96px;
+  }
+
+  header h3 {
+    color: var(--main-color);
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  header h1 {
+    color: #101828;
+    font-weight: 600;
+    line-height: 60px
+  }
+
+  header p {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
   }
