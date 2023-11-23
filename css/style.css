@@ -1,7 +1,6 @@
 :root {
   --text-color: #667085;
   --main-color: #8E2424;
-  --text-gray: #101828;
 }
 
 * {
@@ -45,91 +44,122 @@ button#signUp {
   color: #FFF;
 }
 
-header {
-  height: 407px;
-  text-align: center;
-  margin-top: 60px;
-}
+/* Cabeçalho - Primeira seção */
 
-header div {
+.about-us {
+  padding: 7rem 0;
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding: 0px 96px;
+  align-items: center;
+  gap: 1rem; /* poderia ser margin-bottom pra cada elemento, gap dá um espaçamento entre todos
+  os filhos de uma div com display flex*/
 }
 
-header h3 {
+.about-us span {
   color: var(--main-color);
-  font-weight: 600;
-  line-height: 24px;
 }
 
-header h1 {
-  color: var(--text-gray);
-  font-weight: 600;
-  line-height: 60px
+.about-us h1 {
+  font-size: 2rem;
 }
 
-header p {
+.about-us p {
   color: var(--text-color);
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
+  max-width: 50%;
+  text-align: center;
+  line-height: 1.5rem;
 }
+
+/* Seção de métricas */
 
 .metrics {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 64px;
-  padding: 0px 32px;
-  text-align: start;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3rem;
+  padding: 0 8rem;
 }
 
-.metrics div {
+.metric {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 280px;
+  gap: 0.5rem;
 }
 
-.metrics h1 {
+.metric h1 {
   color: var(--main-color);
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 72px;
+  font-size: 3rem;
 }
 
-.metrics h3 {
-  color: var(--text-gray);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.metrics p {
+.metric span {
   color: var(--text-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 140%;
+  font-size: 90%;
 }
 
-.image {
+.metric .metric-title {
+  font-weight: 500;
+  color: #101828;
+}
+
+/* Seção de talentos */
+
+.talents {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 0px 96px;
-  gap: 64px;
-  text-align: center;
-  margin-top: 180px;
+  align-items: center;
+  padding-top: 10rem;
+  gap: 1rem;
 }
 
-.image h4 {
+.talents span {
   color: var(--main-color);
-  Size: 14px;
-  border-radius: 16px;
-  background-color: #F9F4F4;
-  width: 125px;
+  background: rgba(142, 36, 36, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.talents p {
+  color: var(--text-color);
+}
+
+.talents img {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+/* Seção de vagas abertas */
+
+.vagas-abertas {
+  padding-top: 4rem;
+}
+
+.vagas-abertas span.area-principal {
+  display: block;
+  max-width: 50%;
   margin: 0 auto;
-  padding: 4px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.vaga {
+  border: 1px solid #EAECF0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.vaga span.titulo-vaga {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.vaga .informacoes {
+  margin-top: 1rem;
+  font-size: 90%;
+  color: var(--text-color);
+  display: flex;
+  gap: 2rem;
 }
