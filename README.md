@@ -6,3 +6,4 @@
 + Dia 3 - Desesnvolvido seção de métricas; 
 + Dia 4 - Desenvolvido seção com imagem;
 + Dia 5 - Desenvolvido seção de vagas;
++ Dia 6 - Desenvolvido seção de depoimentos;
