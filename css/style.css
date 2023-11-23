@@ -133,3 +133,44 @@ header p {
   margin: 0 auto;
   padding: 4px;
 }
+
+.vagas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 32px;
+}
+
+.setor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.titulo-setor {
+  color: var(--text-gray);
+  size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.vaga {
+  border: solid 1px;
+  border-radius: 16px;
+  border-color: #EAECF0;
+  padding: 24px 24px 28px 24px;
+  gap: 24px;
+}
+
+.titulo-vaga {
+  color: var(--text-gray);
+  font-weight: 500;
+  size: 18px;
+  line-height: 28px;
+}
+
+.informacoes span{
+  gap: 8px;
+}
