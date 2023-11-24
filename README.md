@@ -7,3 +7,15 @@
 + Dia 4 - Desenvolvido seção com imagem;
 + Dia 5 - Desenvolvido seção de vagas;
 + Dia 6 - Desenvolvido seção de depoimentos;
++ Dia 7 - Desenvolvido Footer;
+
+#### Projeto inicial concluído.
+
+### Próximos passos:  
+* [ ] - Instalar o Composer;
+* [ ] - Instalaro o Bootstrap;
+* [ ] - Converter tudo para Bootstrap;
+* [ ] - Deixar responsivo...
+
+
+
