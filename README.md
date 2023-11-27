@@ -12,8 +12,8 @@
 #### Projeto inicial concluído.
 
 ### Próximos passos:  
-* [ ] - Instalar o Composer;
-* [ ] - Instalaro o Bootstrap;
+* [x] - Instalar o Composer;
+* [x] - Instalaro o Bootstrap;
 * [ ] - Converter tudo para Bootstrap;
 * [ ] - Deixar responsivo...
 
